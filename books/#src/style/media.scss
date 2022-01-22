@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+
+    main ul {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    #wrapper-menu {
+        height: 300px;
+
+        section ul {
+            flex-direction: column;
+        }   
+    }
+    
+
+    .menu--close {
+        top: -300px;
+    }
+}

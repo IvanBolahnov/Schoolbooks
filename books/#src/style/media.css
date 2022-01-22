@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+  #wrapper-menu section ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu--close {
+    top: -500px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

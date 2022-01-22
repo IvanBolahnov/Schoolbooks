@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+  main ul {
+    -ms-grid-columns: 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  #wrapper-menu {
+    height: 300px;
+  }
+  #wrapper-menu section ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu--close {
+    top: -300px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
